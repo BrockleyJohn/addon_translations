@@ -24,6 +24,7 @@ const MODULE_PAYMENT_PAYPAL_CHECKOUT_TEXT_DESCRIPTION = '<div>Zahlungen mit Payp
 
 const MODULE_PAYMENT_PAYPAL_CHECKOUT_CONFIG_ERROR = 'Das Paypal-Modul ist nicht richtig konfiguriert - bitte wählen Sie eine andere Zahlungsmethode';
 const MODULE_PAYMENT_PAYPAL_CHECKOUT_CONN_ERROR = '<div class="alert-danger">Die Paypal API reagiert zu langsam. Bei Problemen wählen Sie bitte eine andere Zahlungsmethode</div>';
+const MODULE_PAYMENT_PAYPAL_CHECKOUT_INITIALISE_ERROR = 'Paypal Checkout konnte nicht initialisiert werden. Bitte versuchen Sie es erneut oder wählen Sie eine andere Zahlungsmethode';
 const MODULE_PAYMENT_PAYPAL_CHECKOUT_ERROR_TITLE = 'Paypal Checkout Error';
 const MODULE_PAYMENT_PAYPAL_CHECKOUT_PAYMENT_FAILURE = 'Ihre Zahlung konnte nicht mit Paypal abgwickelt werden.. Wenn das Problem weiterhin besteht, wählen Sie bitte eine andere Zahlungsmethode';
 const MODULE_PAYMENT_PAYPAL_CHECKOUT_APPLEPAY_CFG_ERROR = 'Entschuldigung, Apple Pay ist nicht richtig konfiguriert- wählen Sie bitte eine andere Zahlungsmethode';
@@ -31,6 +32,8 @@ const MODULE_PAYMENT_PAYPAL_CHECKOUT_APPLEPAY_CFG_ERROR = 'Entschuldigung, Apple
 const MODULE_PAYMENT_PAYPAL_CHECKOUT_MATC = 'Bitte akzeptieren Sie die Allgemeinen Geschäftsbedingungen, um fortzufahren.';
 const MODULE_PAYMENT_PAYPAL_CHECKOUT_DATA_MISS = 'Die Genehmigung von Paypal konnte nicht eingeholt werden';
 const MODULE_PAYMENT_PAYPAL_CHECKOUT_POSTING = '<br>Warten auf die Zahlungsabwicklung durch Paypal<br>Bitte warten Sie bis zu <span id="ppcountdown">%d</span> Sekunden';
+
+const MODULE_PAYMENT_PAYPAL_CHECKOUT_GPAY_TOTAL = 'Gesamtbetrag';
 
 // order statuses
 const MODULE_PAYMENT_PAYPAL_CHECKOUT_TRANSACTIONS_STATUS = 'Paypal [Transactions]';
@@ -148,6 +151,8 @@ const MODULE_PAYMENT_PAYPAL_CHECKOUT_OFFER_VENMO_TITLE = 'Venmo anbieten';
 const MODULE_PAYMENT_PAYPAL_CHECKOUT_OFFER_VENMO_DESC = 'Venmo anbieten(nur in den USA verfügbar)';
 const MODULE_PAYMENT_PAYPAL_CHECKOUT_OFFER_APPLEPAY_TITLE = 'Apple Pay anbiten';
 const MODULE_PAYMENT_PAYPAL_CHECKOUT_OFFER_APPLEPAY_DESC = 'Damit dies funktioniert, sind zahlreiche manuelle Einstellungen erforderlich. - siehe Benutzerhandbuch';
+const MODULE_PAYMENT_PAYPAL_CHECKOUT_OFFER_GOOGLEPAY_TITLE = 'Google Pay anbieten';
+const MODULE_PAYMENT_PAYPAL_CHECKOUT_OFFER_GOOGLEPAY_DESC = 'Überprüfen Sie vor dem Einschalten, ob Google Pay bei Paypal aktiviert ist – siehe Benutzerhandbuch';
 const MODULE_PAYMENT_PAYPAL_CHECKOUT_ALLOW_INSTANT_ONLY_TITLE = 'Nur Sofortzahlungen';
 const MODULE_PAYMENT_PAYPAL_CHECKOUT_ALLOW_INSTANT_ONLY_DESC = 'Verhindert, dass Leute mit elektronischen Schecks usw. bezahlen';
 const MODULE_PAYMENT_PAYPAL_CHECKOUT_CHECK_PROTECTION_TITLE = 'Verkäuferschutz prüfen';
